@@ -11,29 +11,29 @@ load_dotenv()
 TG_BOT_TOKEN = os.environ.get("7833583025:AAHyfGXbEBbWr-12DWJHO84VvORFNCrIZz4")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("11472991"))
+APP_ID = int('11472991')
 
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("c78c50d54baf2173e8b3f75c359c0c72")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("-1002318167392"))
+CHANNEL_ID = int("-1002318167392")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("1430742022"))
+OWNER_ID = int("1430742022")
 
 #Port
-PORT = os.environ.get("8080")
+PORT = ("8080")
 
 #Database 
-DB_URI = os.environ.get("mongodb+srv://KarthikMovies:KarthikUK007@cluster0.4l5byki.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = ("mongodb+srv://KarthikMovies:KarthikUK007@cluster0.4l5byki.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = ("filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("-1002450932371"))
+FORCE_SUB_CHANNEL = int("-1002450932371")
 JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED")
 
-TG_BOT_WORKERS = int(os.environ.get("4"))
+TG_BOT_WORKERS = int("4")
 
 #start message
 START_PIC = os.environ.get("https://envs.sh/Qrd.jpg")
