@@ -60,7 +60,7 @@ AUTO_DELETE_MSG = os.environ.get( "This file will be automatically deleted in {t
 AUTO_DEL_SUCCESS_MSG = os.environ.get("Your file has been successfully deleted. Thank you for using our service. ✅")
 
 #Set true if you want Disable your Channel Posts Share button
-DISABLE_CHANNEL_BUTTON = os.environ.get(None) == 'True'
+DISABLE_CHANNEL_BUTTON = os.environ.get(True) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
