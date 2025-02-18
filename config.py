@@ -40,7 +40,7 @@ START_PIC = os.environ.get("https://envs.sh/Qrd.jpg")
 START_MSG = os.environ.get("Hello {first}\n\nI can store private files in TN Botz Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("7188069786").split()):
+    for x in (("7188069786").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
