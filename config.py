@@ -33,7 +33,7 @@ DB_NAME = os.environ.get("filesharexbot")
 FORCE_SUB_CHANNEL = int(("-1002369890832"))
 JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", None)
 
-TG_BOT_WORKERS = int(os.environ.get("4"))
+TG_BOT_WORKERS = int(("4"))
 
 #start message
 START_PIC = os.environ.get("https://envs.sh/EyO.jpg")
